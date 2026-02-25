@@ -1,0 +1,81 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: black;
+}
+
+.chapter-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+  text-align: left;
+}
+
+.chapter-header {
+  display: flex;
+  background-color: white;
+  padding: 20px;
+  color: black;
+  border-radius: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.chapter-image {
+  width: 150px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.chapter-title {
+  flex: 1;
+}
+
+.verses-container,
+.commentary-container {
+  background-color: white;
+  padding: 20px;
+  margin: 0;
+  border-radius: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  text-align: center;
+}
+
+.verse {
+  margin-bottom: 10px;
+  text-align: left;
+}
+h1 {
+  text-align: center;
+  color: black;
+  margin: 0;
+  background-image: url("./headerGita1.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+h2,
+h3 {
+  text-align: center;
+  color: black;
+}
+
+p {
+  color: black;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+ol {
+  margin-left: 20px;
+}

@@ -1,0 +1,97 @@
+/* Chapters.css */
+
+/* General styles */
+body {
+  font-family: "Poppins", sans-serif; /* Change to Poppins */
+  margin: 0; /* No margin to allow full-width sections */
+  padding: 0; /* No padding to allow full-width sections */
+  background-color: #f4f4f4; /* Light background for the whole page */
+  color: black;
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+/* Chapter Container */
+.chapter-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw; /* Use viewport width to ensure no overflow */
+  margin: 0; /* No margin to allow full-width sections */
+  text-align: left;
+}
+
+/* Header Section */
+.chapter-header {
+  display: flex;
+  background-color: white; /* White background for the header */
+  padding: 20px; /* Padding for inner spacing */
+  color: black;
+  border-radius: 0; /* No rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  width: 100%; /* Full width for header */
+}
+
+/* Image Styles */
+.chapter-image {
+  width: auto; /* Set a fixed width for the image */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 20px; /* Spacing between image and text */
+}
+
+/* Title Styles */
+.chapter-title {
+  flex: 1; /* Takes remaining space */
+}
+
+/* Verse Container and Commentary Container */
+.verses-container,
+.commentary-container {
+  background-color: white; /* White background for verses and commentary */
+  padding: 20px; /* Padding for inner spacing */
+  margin: 0; /* No margin to touch left and right corners */
+  border-radius: 0; /* No rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  width: 100%; /* Full width for sections */
+  text-align: left;
+  box-sizing: border-box; /* Include padding and border in element's total width */
+}
+
+/* Verse Styles */
+.verse {
+  margin-bottom: 10px; /* Space between verses */
+  text-align: left; /* Left alignment for verses */
+}
+
+h1 {
+  text-align: center; /* Center align the heading */
+  color: black; /* Header text color */
+  margin: 0; /* Remove default margin */
+  background-image: url("./headerGita1.jpg"); /* Set the background image */
+  background-size: cover; /* Cover the entire h1 area */
+  background-position: center; /* Center the background image */
+  padding: 20px; /* Add padding for spacing */
+  border-radius: 5px; /* Optional: rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: add a subtle shadow */
+  position: relative; /* Required for pseudo-elements */
+}
+
+/* Heading Styles */
+h2,
+h3 {
+  text-align: center;
+  color: black; /* Black color for headings */
+}
+
+/* Paragraph Styles */
+p {
+  color: black; /* Black color for paragraph text */
+}
+
+/* List Styles */
+ul {
+  margin-left: 20px; /* Indentation for unordered lists */
+}
+
+/* Ordered List Styles */
+ol {
+  margin-left: 20px; /* Indentation for ordered lists */
+}

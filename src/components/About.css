@@ -1,0 +1,26 @@
+.about-container {
+  background-color: w;
+  color: white;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 1200px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  overflow: hidden;
+}
+
+.about-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.about-content {
+  font-size: 1rem;
+  line-height: 1.4;
+  font-family: "Poppins", sans-serif;
+}

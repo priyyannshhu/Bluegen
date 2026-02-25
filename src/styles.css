@@ -1,0 +1,272 @@
+body {
+  background-image: url("./components/backParchment_1920.jpg");
+
+  background-size: cover;
+  background-position: center;
+  color: #f5f5f5;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.left-section {
+  width: 50%;
+}
+
+.right-section {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.text-part-1 h1 {
+  color: wheat;
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 0;
+}
+
+.text-part-2 p {
+  color: #000000;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.capsule-button {
+  background-color: #ff8c00;
+  color: white;
+  font-weight: bold;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.capsule-button:hover {
+  background-color: #ff7b00;
+}
+
+header {
+  background-color: #333;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.translate-button {
+  background-color: transparent;
+  border: none;
+  color: #000000;
+  font-size: 1rem;
+  padding: 0.1px 15px;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 55px;
+  transition: all 0.3s;
+}
+
+.translate-button:hover {
+  background-color: #ff8c00;
+  text-shadow: 0 0 10px #ff8c00;
+  color: #ffffff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.logo-img {
+  width: 120px;
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 0;
+  padding-right: 20px;
+}
+
+.navbar {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+}
+
+.navbar li {
+  margin-left: 20px;
+}
+
+.navbar a {
+  color: #000000;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #ff8c00;
+  text-shadow: 0 0 10px #ff8c00;
+  color: #ffffff;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-section {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.center-section,
+.right-section {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.floating-krishna {
+  width: 100%;
+  max-width: 700px;
+  animation: float 2s ease-in-out infinite;
+  transition: transform 0.3s;
+  position: relative;
+  bottom: 60px;
+}
+
+.floating-krishna:hover {
+  transform: scale(1.1);
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.gita-image {
+  width: 100%;
+  max-width: 400px;
+}
+
+.glowing-text {
+  font-size: 2.5rem;
+  color: #ffcc00;
+  text-shadow: 0 0 5px #ffcc00, 0 0 10px #ffcc00, 0 0 15px #ffcc00;
+}
+
+.quote {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin: 1rem 0;
+}
+
+.chat-input {
+  width: 80%;
+  padding: 10px;
+}
+
+.coming-soon {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #333;
+  color: white;
+}
+
+.testimonials {
+  padding: 50px 20px;
+  background-color: #444;
+  color: white;
+}
+
+.testimonial {
+  margin: 20px 0;
+}
+
+.about,
+.stay-connected {
+  padding: 50px 20px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+footer {
+  padding: 20px 0;
+  background-color: #222;
+  color: white;
+  text-align: center;
+}
+
+.social-links a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.team-section {
+  margin-top: 10px;
+}
+
+.ask-button {
+  background: linear-gradient(to bottom, #8b4513, #d2b48c);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.ask-button:hover {
+  transform: scale(1.1);
+}
+
+.ask-button:active {
+  transform: scale(1.2);
+  background-color: #e07b00;
+}
+
+.youtube-section {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 700px;
+  margin-top: 2rem;
+  padding: 20px;
+}
+
+.styled-iframe {
+  width: 100%;
+  height: auto;
+  border: none;
+}
+
+.geeta-text {
+  font-size: 1.2rem;
+  color: black;
+}

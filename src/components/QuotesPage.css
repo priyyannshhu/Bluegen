@@ -1,0 +1,34 @@
+.quotes-container {
+  text-align: center;
+  overflow-y: auto;
+  max-height: 80vh;
+  padding: 20px;
+}
+
+.quotes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.quote-frame {
+  padding: 40px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  color: white;
+  opacity: 0;
+  transition: opacity 1s, transform 1s;
+  width: 80%;
+  transform: translateY(20px);
+}
+
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.fade-out {
+  opacity: 0;
+  transform: translateY(20px);
+}

@@ -1,0 +1,18 @@
+/* Terms.css */
+.terms-container {
+    text-align: center;
+    margin: 50px;
+    color: white; /* Text color */
+    background-color: whitesmoke; /* Background color */
+    padding: 20px; /* Optional padding for better layout */
+    border-radius: 8px; /* Optional rounded corners */
+  }
+  
+  h1, h2 {
+    color: white; /* Ensures heading colors are white */
+  }
+  
+  p {
+    color: white; /* Ensures paragraph colors are white */
+  }
+  

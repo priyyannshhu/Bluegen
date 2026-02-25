@@ -1,0 +1,87 @@
+/* SummaryPage.css */
+
+/* Common Styles for Chapter Title */
+h1.chapter-title {
+  text-align: center;
+  color: orange;
+  font-family: cursive; /* Use a unique fancy font */
+  font-size: 3rem;
+  margin: 20px 0; /* Add some margin for spacing */
+}
+
+/* Common Styles for Chapter Heading */
+h2.chapter-heading {
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: 2.5rem; /* Adjust size as needed */
+}
+
+/* Common Styles for Chapter Description */
+p.chapter-description {
+  text-align: justify;
+  padding: 0 20px;
+  font-family: Arial, sans-serif;
+  font-size: 1.2rem; /* Adjust font size */
+}
+
+/* Common Styles for Verses Section */
+h2.verses-section {
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: 2.5rem; /* Adjust size as needed */
+}
+
+/* Common Styles for Verse Count */
+p.verse-count {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+/* Styles for Go To Verse Form */
+.go-to-verse-form {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.go-to-verse-form input[type="text"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.go-to-verse-form button {
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+  background-color: orange;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Styles for Verses Container */
+.verses-container {
+  margin: 20px;
+}
+
+/* Styles for Individual Verse Box */
+.verse-box {
+  margin: 15px 0;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9; /* Light background color */
+}
+
+/* Styles for Verse Number */
+h3.verse-number {
+  font-family: Georgia, serif;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+/* Styles for Verse Text */
+p.verse-text {
+  font-family: Arial, sans-serif;
+  font-size: 1.2rem;
+}
